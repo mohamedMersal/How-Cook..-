@@ -1,0 +1,31 @@
+.imeg{
+    width: 200px;
+    height: 300px;
+    transition: all .5s;
+}
+.item:hover .imeg{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+h3{
+    transition: all .5s;
+    color: #198754;
+}
+.item:hover h3{
+    text-align: center;
+    font-weight: bold;
+    color: #F72585;
+}
+
+
+.pointer,li{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+}
+.item{
+    padding-top: 15px;
+}

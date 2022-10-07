@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap'); 
+body {
+ background-color: #FFFFF2;
+ font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

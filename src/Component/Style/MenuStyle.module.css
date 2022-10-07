@@ -1,0 +1,29 @@
+
+h4{
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.item:hover h4{
+    text-align: center;
+    font-weight: bold;
+    color: #F72585;
+}
+img{
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.pointer,li{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+}

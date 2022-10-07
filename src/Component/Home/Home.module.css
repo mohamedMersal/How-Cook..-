@@ -1,0 +1,38 @@
+
+.background{
+    height: 100vh;
+    background-image: url(img/backGround.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+@media (max-width:768px){
+    .background{
+        height: 0;
+        background-image: none;
+    }
+}
+.heder{
+    text-align: center;
+    font-weight: bold;
+    color: #F72585;
+    margin-bottom: 20px;
+}
+.imeg{
+    width: 100%;
+    height: 390px;
+    transition: all .5s;
+}
+
+.item:hover .imeg{
+    transform: scaley(1.2);
+}
+h4{
+    margin-top: 50px;
+    color: #198754;
+    cursor: pointer;
+    transition: all .5s;
+}
+.item:hover h4{
+    color: #F72585;
+}
+

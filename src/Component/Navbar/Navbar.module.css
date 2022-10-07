@@ -1,0 +1,45 @@
+.logo{
+    width: 27%;
+}
+@media (max-width:768px){
+    .logo{
+        width: 69%;
+    }
+}
+.backGround{
+    background-color: #FFD08A;
+}
+ nav a .test{
+    color: #f72585!important;
+}
+nav ul li{
+    font-size: 20px;
+    font-size: 17px;
+    font-weight: 550;
+} 
+nav ul li a{
+    transition: all .5s;
+    position: relative;
+} 
+nav ul li:hover a{
+    color: #f72585 !important;
+}
+nav ul li a::after{
+    content: "";
+    display: none;
+    width: 70%;
+    height: 1.5px;
+    background-color: #f72585;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav ul li:hover a::after{
+    display: block;
+}
+@media (max-width:768px){
+    nav ul li:hover a::after{
+        display: none;
+    }
+}
